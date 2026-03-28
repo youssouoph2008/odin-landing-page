@@ -1,0 +1,164 @@
+html{
+    box-sizing: border-box;
+    font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.first-section {
+    background-color : #1f2937;
+    color: #fff;
+    padding: 30 px 0 100 px 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-main{
+    font-size: 48.px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary,
+.header-link,
+.action-text,
+footer p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-secondary{
+    margin: 10px 0;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.img-placeholder {
+    height: 300px;
+    width: 700px;
+    background-color: #6d747d;
+    display : flex;
+    justify-content :center;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 450px;
+}
+
+.signup-btn,
+.action-btn {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 8px 35 px;
+    border: none;
+    font-size: 15 px;
+    font-weight: 900;
+    border-radius: 6px;
+}
+
+.second-section{
+    padding: 0 0 150px 0;
+}
+
+.secon-header{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.box-placeholder{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: #3882f6 solid 3px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box p{
+    width: 150px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    padding: 150px 0;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.quote-author{
+    font-weight: 900;
+    font-size: 25px;
+    text-align: right;
+    width: 40%;
+    margin: 0 auto;
+}
+
+fourth-section{
+    padding: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 8px;
+    padding: 40 px;
+    display: flex;
+    justify-content: space-around;
+}
+
+action-btn{
+    border: #fff solid 3px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 35px 0;
+}
